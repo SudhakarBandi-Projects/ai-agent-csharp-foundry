@@ -8,7 +8,7 @@ Accept user input, send it to Azure OpenAI (ChatGPT), and return the response.
 ## 📁 Structure
 ```
 ai-agent-csharp/
-├── src/│   
+├── src/
 │   ├── AzureAIClient/
 ```
 
