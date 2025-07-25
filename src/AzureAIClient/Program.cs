@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Net.Http;
 using System.Net.Http.Headers;
@@ -13,29 +13,34 @@ class Program
 {
     static async Task Main()
     {        
-        string relativeresponsefilePath = Path.Combine("..", "..", "..", "..","..", "data", "response_raw.json");
-        string responsefilePath = Path.GetFullPath(relativeresponsefilePath);
+        string AZURE_OPENAI_ENDPOINT = "https://ai-agent-csharp-aif.openai.azure.com/";
+        string AZURE_OPENAI_KEY = "7yKYz43o0GmQAVQfCOIVEtL7fwm01HqpX2tp0ztLuWHjhfUmNVwQJQQJ99BGACHYHv6XJ3w3AAAAACOGGtDs";
+        string AZURE_OPENAI_DEPLOYMENT_ID= "gpt-4.1";
 
-        string relativeuserinputPath = Path.Combine("..", "..", "..", "..", "..", "data", "user_input.txt");
-        string userinputfilePath = Path.GetFullPath(relativeuserinputPath);
-
-        var endpoint = new Uri("https://ai-agent-csharp-resource.openai.azure.com/");
-        string key = "9l0BeoXv8ziotGTOB47Cnin4uvDhvv2R7QoEt01aRzvs8pA1xBmkJQQJ99BGACHYHv6XJ3w3AAAAACOGFXgP";
+        var endpoint = new Uri(AZURE_OPENAI_ENDPOINT);
+        string key = "7yKYz43o0GmQAVQfCOIVEtL7fwm01HqpX2tp0ztLuWHjhfUmNVwQJQQJ99BGACHYHv6XJ3w3AAAAACOGGtDs";
         string deploymentId = "gpt-4.1";
 
         AzureOpenAIClient azureClient = new(
             endpoint,
-            new AzureKeyCredential(key));
-        ChatClient chatClient = azureClient.GetChatClient(deploymentId);
+            new AzureKeyCredential(AZURE_OPENAI_KEY));
+        ChatClient chatClient = azureClient.GetChatClient(AZURE_OPENAI_DEPLOYMENT_ID);
+
+        Console.WriteLine("Enter your question:");
+        string question = Console.ReadLine();
 
         List<ChatMessage> messages = new List<ChatMessage>()
         {
             new SystemChatMessage("You are a helpful assistant."),
-            new UserChatMessage(File.ReadAllText(userinputfilePath)),
+            new UserChatMessage(question),
         };
 
         var response = chatClient.CompleteChat(messages);
         
-        File.WriteAllText(responsefilePath, response.Value.Content[0].Text);
+        //File.WriteAllText(responsefilePath, response.Value.Content[0].Text);
+
+        Console.WriteLine("\nAI Agent Response:\n------------------");
+        Console.WriteLine(response.Value.Content[0].Text);
+        Console.ReadKey();
     }
 }
