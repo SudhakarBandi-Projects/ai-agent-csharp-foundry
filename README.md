@@ -30,6 +30,7 @@ AZURE_OPENAI_DEPLOYMENT_ID=your_deployment_name
 ```
 foundry run .azure-ai-foundry/pipeline.yaml
 ```
+<img width="1902" height="1022" alt="image" src="https://github.com/user-attachments/assets/0e150266-440a-4a0f-94f7-85d9b393cb79" />
 
 ## 📦 Requirements
 - Azure OpenAI resource
