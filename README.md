@@ -27,8 +27,18 @@ ai-agent-csharp/
 4. Project will be created with All the endpoints and API key as shown in below image,
    <img width="1883" height="1022" alt="image" src="https://github.com/user-attachments/assets/ff9aa5fe-e9c6-492f-86f1-529e029f5593" />
    
-5. Clone the project into your local repository. 
-6. Add these variables in Program.cs, these variable values can be found in step 4:
+5. Clone the project into your local repository.
+   The file src/AzureAIClient/Program.cs is the main entry point for the C# console application that interacts with Azure OpenAI's GPT model.
+   
+   Here’s a summary of what the file does:
+   -It sets up necessary endpoints, API keys, and deployment IDs for connecting to Azure OpenAI.
+   -It creates an AzureOpenAIClient and retrieves a ChatClient for the specified deployment.
+   -The user is prompted to enter a question via the console.
+   -The application constructs a chat history with a system message ("You are a helpful assistant.") and the user's question.
+   -It sends this chat history to the OpenAI API and receives a response.
+   -Finally, it displays the AI-generated response in the console.
+   This file demonstrates a simple client for sending user input to Azure OpenAI's GPT deployment and getting a textual response back, suitable for building chatbot or assistant         applications.
+7. Add the following variables in Program.cs, these variable values can be found in step 4:
 ```
 AZURE_OPENAI_ENDPOINT=your_endpoint_url
 AZURE_OPENAI_KEY=your_openai_key
