@@ -29,7 +29,7 @@ ai-agent-csharp/
    
 5. Clone the project into your local repository.
    The file src/AzureAIClient/Program.cs is the main entry point for the C# console application that interacts with Azure OpenAI's GPT model.
-   
+      
    Here’s a summary of what the file does:
    -It sets up necessary endpoints, API keys, and deployment IDs for connecting to Azure OpenAI.
    -It creates an AzureOpenAIClient and retrieves a ChatClient for the specified deployment.
