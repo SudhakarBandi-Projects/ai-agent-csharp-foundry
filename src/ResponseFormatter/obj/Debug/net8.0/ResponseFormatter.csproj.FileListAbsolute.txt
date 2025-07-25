@@ -1,0 +1,17 @@
+C:\Users\S-BANDI\Downloads\ai-agent-csharp-foundry\src\ResponseFormatter\obj\Debug\net8.0\ResponseFormatter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\S-BANDI\Downloads\ai-agent-csharp-foundry\src\ResponseFormatter\obj\Debug\net8.0\ResponseFormatter.AssemblyInfoInputs.cache
+C:\Users\S-BANDI\Downloads\ai-agent-csharp-foundry\src\ResponseFormatter\obj\Debug\net8.0\ResponseFormatter.AssemblyInfo.cs
+C:\Users\S-BANDI\Downloads\ai-agent-csharp-foundry\src\ResponseFormatter\obj\Debug\net8.0\ResponseFormatter.csproj.CoreCompileInputs.cache
+C:\Users\S-BANDI\Downloads\ai-agent-csharp-foundry\src\ResponseFormatter\bin\Debug\net8.0\ResponseFormatter.exe
+C:\Users\S-BANDI\Downloads\ai-agent-csharp-foundry\src\ResponseFormatter\bin\Debug\net8.0\ResponseFormatter.deps.json
+C:\Users\S-BANDI\Downloads\ai-agent-csharp-foundry\src\ResponseFormatter\bin\Debug\net8.0\ResponseFormatter.runtimeconfig.json
+C:\Users\S-BANDI\Downloads\ai-agent-csharp-foundry\src\ResponseFormatter\bin\Debug\net8.0\ResponseFormatter.dll
+C:\Users\S-BANDI\Downloads\ai-agent-csharp-foundry\src\ResponseFormatter\bin\Debug\net8.0\ResponseFormatter.pdb
+C:\Users\S-BANDI\Downloads\ai-agent-csharp-foundry\src\ResponseFormatter\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\S-BANDI\Downloads\ai-agent-csharp-foundry\src\ResponseFormatter\obj\Debug\net8.0\ResponseFormatter.csproj.AssemblyReference.cache
+C:\Users\S-BANDI\Downloads\ai-agent-csharp-foundry\src\ResponseFormatter\obj\Debug\net8.0\ResponseFormatter.csproj.CopyComplete
+C:\Users\S-BANDI\Downloads\ai-agent-csharp-foundry\src\ResponseFormatter\obj\Debug\net8.0\ResponseFormatter.dll
+C:\Users\S-BANDI\Downloads\ai-agent-csharp-foundry\src\ResponseFormatter\obj\Debug\net8.0\refint\ResponseFormatter.dll
+C:\Users\S-BANDI\Downloads\ai-agent-csharp-foundry\src\ResponseFormatter\obj\Debug\net8.0\ResponseFormatter.pdb
+C:\Users\S-BANDI\Downloads\ai-agent-csharp-foundry\src\ResponseFormatter\obj\Debug\net8.0\ResponseFormatter.genruntimeconfig.cache
+C:\Users\S-BANDI\Downloads\ai-agent-csharp-foundry\src\ResponseFormatter\obj\Debug\net8.0\ref\ResponseFormatter.dll

@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\data",
+    "\\src",
+    "\\src\\AzureAIClient",
+    "\\src\\InputHandler",
+    "\\src\\ResponseFormatter"
+  ],
+  "SelectedNode": "\\src\\ResponseFormatter\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}
