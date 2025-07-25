@@ -8,18 +8,13 @@ Accept user input, send it to Azure OpenAI (ChatGPT), and return the response us
 ## 📁 Structure
 ```
 ai-agent-csharp/
-├── .azure-ai-foundry/
-│   └── pipeline.yaml
-├── data/
-│   ├── user_input.txt
-│   └── response_raw.json
-├── src/
-│   ├── InputHandler/
+├── src/│   
 │   ├── AzureAIClient/
-│   └── ResponseFormatter/
 ```
 
 ## ⚙️ Setup
+1. Create a new project in Azure AI Foundry.
+   <img width="1902" height="1022" alt="image" src="https://github.com/user-attachments/assets/0e150266-440a-4a0f-94f7-85d9b393cb79" />
 1. Add these environment variables:
 ```
 AZURE_OPENAI_ENDPOINT=your_endpoint_url
@@ -30,7 +25,7 @@ AZURE_OPENAI_DEPLOYMENT_ID=your_deployment_name
 ```
 foundry run .azure-ai-foundry/pipeline.yaml
 ```
-<img width="1902" height="1022" alt="image" src="https://github.com/user-attachments/assets/0e150266-440a-4a0f-94f7-85d9b393cb79" />
+
 <img width="1913" height="1023" alt="image" src="https://github.com/user-attachments/assets/88218ee5-4060-4fd6-bbac-c11cf3c065ec" />
 <img width="1911" height="1023" alt="image" src="https://github.com/user-attachments/assets/4f9461aa-5169-4137-b00b-9afb22c05a22" />
 <img width="1883" height="1022" alt="image" src="https://github.com/user-attachments/assets/ff9aa5fe-e9c6-492f-86f1-529e029f5593" />
