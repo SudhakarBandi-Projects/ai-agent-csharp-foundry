@@ -47,7 +47,7 @@ ai-agent-csharp/
    
    This file demonstrates a simple client for sending user input to Azure OpenAI's GPT deployment and getting a textual response back, suitable for building chatbot or assistant         applications.
    
-6. Add the following variables in Program.cs, these variable values can be found in step 4:
+6. Add the following variables in Program.cs from your Azure AI Foundry project, these variable values can be found in step 4:
 ```
 AZURE_OPENAI_ENDPOINT=your_endpoint_url
 AZURE_OPENAI_KEY=your_openai_key
