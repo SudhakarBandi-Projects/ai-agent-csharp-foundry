@@ -34,8 +34,6 @@ class Program
         };
 
         var response = chatClient.CompleteChat(messages);
-        
-        //File.WriteAllText(responsefilePath, response.Value.Content[0].Text);
 
         Console.WriteLine("\nAI Agent Response:\n------------------");
         Console.WriteLine(response.Value.Content[0].Text);
