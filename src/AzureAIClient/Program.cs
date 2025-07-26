@@ -14,13 +14,11 @@ class Program
     static async Task Main()
     {        
         string AZURE_OPENAI_ENDPOINT = "https://ai-agent-csharp-aif.openai.azure.com/";
-        string AZURE_OPENAI_KEY = "7yKYz43o0GmQAVQfCOIVEtL7fwm01HqpX2tp0ztLuWHjhfUmNVwQJQQJ99BGACHYHv6XJ3w3AAAAACOGGtDs";
+        string AZURE_OPENAI_KEY = "{your API key}";
         string AZURE_OPENAI_DEPLOYMENT_ID= "gpt-4.1";
 
         var endpoint = new Uri(AZURE_OPENAI_ENDPOINT);
-        string key = "7yKYz43o0GmQAVQfCOIVEtL7fwm01HqpX2tp0ztLuWHjhfUmNVwQJQQJ99BGACHYHv6XJ3w3AAAAACOGGtDs";
-        string deploymentId = "gpt-4.1";
-
+       
         AzureOpenAIClient azureClient = new(
             endpoint,
             new AzureKeyCredential(AZURE_OPENAI_KEY));
